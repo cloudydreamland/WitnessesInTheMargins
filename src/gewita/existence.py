@@ -185,7 +185,9 @@ class QueryBudget:
             return False
         wait = self.min_interval - (time.monotonic() - self._last)
         if wait > 0:
-            time.sleep(wait)
+            # Add a small margin for timer granularity (notably Windows), so
+            # the observed interval does not undershoot the configured limit.
+            time.sleep(wait + min(0.01, max(0.005, self.min_interval * 0.01)))
         self._last = time.monotonic()
         self.used += 1
         return True
