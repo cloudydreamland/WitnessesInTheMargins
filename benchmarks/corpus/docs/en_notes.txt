@@ -1,0 +1,10 @@
+Reading notes on software engineering practice.
+
+Code review latency correlates with defect density in large software projects [1]. Technical debt accumulates quietly and shows up as maintenance cost growth over the years [2].
+
+A widely quoted but unverifiable claim: "pair programming doubles code quality" [3].
+
+References
+[1] BACCHELLI A, BIRD C. Expectations, outcomes, and challenges of modern code review. ICSE, 2013.
+[2] FAKE Q. Technical debt myths debunked. Predatory Journal of Snippets, 2025. DOI 10.4444/nope.2025.7.
+[3] （作者不详）手写笔记复印件，页边有水渍，题名与年份均无法辨认.

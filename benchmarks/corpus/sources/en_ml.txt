@@ -1,0 +1,5 @@
+Machine learning reading pack (mini source set F).
+
+Large language models exhibit emergent capabilities when scaled beyond a critical compute threshold. Retrieval-augmented generation grounds model outputs in external evidence and reduces hallucination. Chain-of-thought prompting improves arithmetic reasoning by eliciting intermediate steps.
+
+RLHF aligns model behaviour with human preferences but can induce reward hacking.

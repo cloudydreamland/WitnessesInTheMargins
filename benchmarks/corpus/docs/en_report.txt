@@ -1,0 +1,11 @@
+Climate policy briefing (excerpt).
+
+Global mean surface temperature has risen by approximately 1.1 degrees Celsius since pre-industrial times [1]. Arctic sea ice extent has declined by more than ten per cent per decade since satellite records began [2]. Recent modelling suggests polar amplification may add a further 0.3 degrees by 2100 [3].
+
+Policy. By pricing carbon, economies can internalise emission costs and redirect investment toward renewable energy [4].
+
+References
+[1] IPCC. Climate change 2023: synthesis report. Cambridge University Press, 2023.
+[2] NSIDC. Sea ice index, version 4 [EB/OL]. (2025-10-02)[2026-03-01]. https://nsidc.org/data/seaice_index.
+[3] HALL A, QU X. Surface warming projections. Nature Climate Change, 2026. DOI 10.7777/fake.climate.009.
+[4] WORLD BANK. State and trends of carbon pricing. World Bank, 2025.

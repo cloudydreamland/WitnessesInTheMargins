@@ -1,0 +1,9 @@
+Abstract. Scaling laws suggest compute-optimal training regimes. Large language models exhibit emergent capabilities when scaled beyond a critical compute threshold [1]. Retrieval augmentation has become standard in production systems. Retrieval-augmented generation grounds model outputs in external evidence and reduces hallucination [2].
+
+We further examine reasoning. Chain-of-thought prompting improves arithmetic reasoning by explicitly eliciting intermediate steps [3]. Some authors even claim that RLHF fully solves the alignment problem once and for all [4].
+
+References
+[1] WEI J, et al. Emergent abilities of large language models. Transactions on Machine Learning Research, 2022.
+[2] LEWIS P, et al. Retrieval-augmented generation for knowledge-intensive NLP tasks. NeurIPS, 2020.
+[3] WANG X, et al. Self-consistency improves chain of thought reasoning in language models. ICLR, 2023.
+[4] FAKE A. RLHF completely solves alignment. Journal of Manufactured Results, 2024. DOI 10.55555/ghost.2024.001.

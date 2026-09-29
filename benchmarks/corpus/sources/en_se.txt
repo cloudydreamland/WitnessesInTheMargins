@@ -1,0 +1,5 @@
+Software engineering field notes (mini source set H).
+
+Code review latency correlates with defect density in large software projects. Automated test suites reduce regression risk but cannot replace manual exploratory testing.
+
+Technical debt accumulates silently and manifests as maintenance cost growth over time.

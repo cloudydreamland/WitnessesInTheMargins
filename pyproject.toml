@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gewita"
+version = "0.1.0rc1"
+description = "Witnesses in the Margins (Gewita) | Citation parsing and source verification"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "gewita contributors" }]
+keywords = [
+    "citation",
+    "引用",
+    "参考文献",
+    "gbt-7714",
+    "fact-checking",
+    "llm",
+    "rag",
+    "chinese",
+    "nlp",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: Chinese (Simplified)",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+gewita = "gewita.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/cloudydreamland/WitnessesInTheMargins"
+Repository = "https://github.com/cloudydreamland/WitnessesInTheMargins"
+Issues = "https://github.com/cloudydreamland/WitnessesInTheMargins/issues"
+Changelog = "https://github.com/cloudydreamland/WitnessesInTheMargins/blob/main/CHANGELOG.md"
+Security = "https://github.com/cloudydreamland/WitnessesInTheMargins/security/policy"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gewita = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+ignore = [
+    "RUF001",  # 文档与字符串里有意使用中文标点
+    "RUF002",  # 同上（docstring）
+    "RUF003",  # 同上（注释）
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
