@@ -10,19 +10,16 @@
 
 ## Quick start
 
-> This package is not on PyPI yet. Install the current GitHub version with:
+```bash
+python -m pip install gewita
+```
 
+Or install from source (latest development version):
 
 ```bash
 git clone https://github.com/cloudydreamland/WitnessesInTheMargins.git
 cd WitnessesInTheMargins
 python -m pip install .
-
-# Align citations against documents you provide. This runs offline.
-gewita check paper.md --sources sources/
-
-# Parse a reference list.
-gewita refs references.txt
 ```
 
 Python API:
