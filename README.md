@@ -47,13 +47,16 @@ sources/ 目录 ──────────┘         │
 
 ## 安装 / Install
 
-> 当前尚未发布到 PyPI；下方给出从 GitHub 获取并本地安装的命令。
+```bash
+python -m pip install gewita
+```
+
+从源码安装（开发或最新版）：
 
 ```bash
 git clone https://github.com/cloudydreamland/WitnessesInTheMargins.git
 cd WitnessesInTheMargins
 python -m pip install .
-# PyPI 首发后：python -m pip install gewita
 ```
 
 ## 快速开始 / Quickstart
