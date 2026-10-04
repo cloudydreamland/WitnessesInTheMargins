@@ -3,8 +3,10 @@
 简体中文 · [English](README.en.md)
 
 > 展示名 **Witnesses in the Margins** 让每条引文都在页边留下可追索的见证；Gewita 是该项目的短名。
-[![CI](https://github.com/cloudydreamland/WitnessesInTheMargins/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
-
+[![PyPI](https://img.shields.io/pypi/v/gewita)](https://pypi.org/project/gewita/)
+[![Python](https://img.shields.io/pypi/pyversions/gewita)](https://pypi.org/project/gewita/)
+[![CI](https://github.com/cloudydreamland/WitnessesInTheMargins/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/WitnessesInTheMargins/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 **中文文献与引文核查工具。解析 GB/T 7714 参考文献、抽取正文引用、把引文与给定来源对齐，并可选查询文献记录。**
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)

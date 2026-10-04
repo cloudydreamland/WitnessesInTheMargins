@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gewita"
-version = "0.1.0rc1"
+version = "0.1.0"
 description = "Witnesses in the Margins (Gewita) | Citation parsing and source verification"
 readme = "README.md"
 requires-python = ">=3.10"

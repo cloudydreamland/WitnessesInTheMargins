@@ -34,7 +34,7 @@ from .report import integrity_score, render_json, render_markdown
 from .text import Sentence, normalize, split_sentences
 from .verdict import CitationVerdict, DocReport, judge_document
 
-__version__ = "0.1.0rc1"
+__version__ = "0.1.0"
 
 __all__ = [
     "EXISTS",

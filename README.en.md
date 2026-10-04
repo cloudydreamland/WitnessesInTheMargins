@@ -4,10 +4,10 @@
 
 **Gewita** parses references, extracts citations, aligns quoted text with supplied sources, and checks bibliographic records against Crossref or arXiv when online verification is requested.
 
+[![PyPI](https://img.shields.io/pypi/v/gewita)](https://pypi.org/project/gewita/)
+[![Python](https://img.shields.io/pypi/pyversions/gewita)](https://pypi.org/project/gewita/)
 [![CI](https://github.com/cloudydreamland/WitnessesInTheMargins/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/WitnessesInTheMargins/actions/workflows/ci.yml)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
-[![MIT license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 ## Quick start
 
 ```bash
