@@ -8,6 +8,8 @@
 [![Python](https://img.shields.io/pypi/pyversions/gewita)](https://pypi.org/project/gewita/)
 [![CI](https://github.com/cloudydreamland/WitnessesInTheMargins/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/WitnessesInTheMargins/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+![gewita demo: offline GB/T 7714 reference parsing (real output)](docs/assets/demo.svg)
 ## Quick start
 
 ```bash
